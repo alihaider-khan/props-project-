@@ -1,0 +1,129 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+html,body{
+  height: 100%;
+  width: 100%;
+}
+body{
+  background-color:rgb(236, 234, 234);
+  color: black;
+}
+.parent{
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+flex-wrap: wrap;
+  gap: 20px;
+}
+.card{
+  width: 300px;
+  height: 350px;
+  background-color: white;
+  color:black;
+  padding: 30px;
+  border: 1px solid white;
+  border-radius: 22px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px 20px;
+  margin: 13px 0px;
+}
+
+.card .top{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.top img{
+  height: 50px;
+  width: 50px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 1px solid #dadada;
+
+} 
+.top button{
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  padding: 7px;
+  border-radius: 7px;
+  border:1px  solid #dadada;
+  font: 10px;
+  gap: 5px;
+}
+.card .center{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 75px;
+  text-wrap: wrap;
+
+}
+.center h4{
+  padding: 3px;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.center span{
+   font-size: 8.5px;
+  font-weight: 300;
+    color: #8b8b8b;
+
+}
+.center h3{
+  font-size: 20px;
+  font-weight: 525;
+  padding-top: 3px;
+
+}
+
+.center #cc{
+   display: flex;
+   align-items: center;
+ 
+}
+
+#cc h4{
+  font-size: 13px;
+  font-weight: 100;
+  padding: 5px;
+  background-color: #dddbdb;
+  margin-top: 13px;
+  margin-right:9px ;
+  border: 1px solid #dadada ;
+  border-radius: 7px;
+  color: #5b5959;
+
+}
+
+.bottom{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top:1px solid #b1b1b1;
+  margin-bottom: 9px;
+  padding: 20px;
+}
+.bottom #btn{
+  background-color: black;
+  color: white;
+  padding: 5px;
+  padding-left: 8px;
+  padding-right: 8px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+#btmhd h6{
+   font-size: 13px;
+  font-weight: 400;
+  color: #8b8b8b;
+}
