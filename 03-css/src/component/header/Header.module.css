@@ -1,0 +1,18 @@
+.header{
+    
+    background-color: rgb(185, 139, 80);
+    padding: 10px 20px;
+    margin: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+      border: 1px solid black;
+      border-radius: 20px;
+
+
+}
+.header .btn{
+  background-color: rgb(151, 106, 106);
+  padding: 3px 5px;
+  border: 1px solid black;
+}
